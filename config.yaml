@@ -1,4 +1,5 @@
 baseurl: https://yuuKiwAw.github.io
+publishDir: docs
 languageCode: en-us
 theme: Stack
 paginate: 5
