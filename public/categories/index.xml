@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Yuki</title>
+        <link>https://yukiblog.github.io/categories/</link>
+        <description>Recent content in Categories on Yuki</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yukiblog.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>blog-introduce</title>
+        <link>https://yukiblog.github.io/categories/blog-introduce/</link>
+        <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://yukiblog.github.io/categories/blog-introduce/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

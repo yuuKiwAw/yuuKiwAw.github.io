@@ -1,0 +1,7 @@
+baseURL = 'yukitech.top/'
+languageCode = 'en-us'
+title = 'YukiTech'
+paginate = 5
+theme = 'Stack'
+
+disqusShortname = 'YukiTech'
