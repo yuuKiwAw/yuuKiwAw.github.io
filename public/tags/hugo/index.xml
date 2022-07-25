@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hugo on Yuki</title>
-        <link>https://yukiblog.github.io/tags/hugo/</link>
+        <link>https://yuuKiwAw.github.io/tags/hugo/</link>
         <description>Recent content in Hugo on Yuki</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yukiblog.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yuuKiwAw.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Yuki&#39;s Blog</title>
-        <link>https://yukiblog.github.io/life/blog-introduce/</link>
+        <link>https://yuuKiwAw.github.io/life/blog-introduce/</link>
         <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://yukiblog.github.io/life/blog-introduce/</guid>
-        <description>&lt;img src="https://yukiblog.github.io/life/blog-introduce/tree.webp" alt="Featured image of post Yuki&#39;s Blog" /&gt;&lt;p&gt;记录学习，记录成长以及生活的点点滴滴。&lt;br&gt;
+        <guid>https://yuuKiwAw.github.io/life/blog-introduce/</guid>
+        <description>&lt;img src="https://yuuKiwAw.github.io/life/blog-introduce/tree.webp" alt="Featured image of post Yuki&#39;s Blog" /&gt;&lt;p&gt;记录学习，记录成长以及生活的点点滴滴。&lt;br&gt;
 分享技术以及教程。&lt;/p&gt;
 </description>
         </item>
