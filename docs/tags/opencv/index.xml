@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Yuki</title>
-        <link>https://yuuKiwAw.github.io/</link>
-        <description>Recent content on Yuki</description>
+        <title>opencv on Yuki</title>
+        <link>https://yuuKiwAw.github.io/tags/opencv/</link>
+        <description>Recent content in opencv on Yuki</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yuuKiwAw.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yuuKiwAw.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>OpenCV环境搭建</title>
         <link>https://yuuKiwAw.github.io/docs/opencv/opencv-env/</link>
         <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
@@ -372,31 +372,6 @@ vscode&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Yuki&#39;s Blog</title>
-        <link>https://yuuKiwAw.github.io/life/blog-introduce/</link>
-        <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://yuuKiwAw.github.io/life/blog-introduce/</guid>
-        <description>&lt;img src="https://yuuKiwAw.github.io/life/blog-introduce/tree.webp" alt="Featured image of post Yuki&#39;s Blog" /&gt;&lt;p&gt;记录学习，记录成长以及生活的点点滴滴。&lt;br&gt;
-分享技术以及教程。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://yuuKiwAw.github.io/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yuuKiwAw.github.io/about/</guid>
-        <description>&lt;h1 id=&#34;yukis-blog&#34;&gt;Yuki&amp;rsquo;s blog&lt;/h1&gt;
-&lt;h2 id=&#34;yukitechsoftware&#34;&gt;YukiTechSoftware&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;Name: Yuki
-Location: ChangShu
-Job: Programmer
-Hobby: Car Racing
-&lt;/code&gt;&lt;/pre&gt;
-</description>
         </item>
         
     </channel>

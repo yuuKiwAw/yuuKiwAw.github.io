@@ -6,7 +6,15 @@
         <description>Recent content in Categories on Yuki</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yuuKiwAw.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yuuKiwAw.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>opencv</title>
+        <link>https://yuuKiwAw.github.io/categories/opencv/</link>
+        <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuuKiwAw.github.io/categories/opencv/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>blog-introduce</title>
         <link>https://yuuKiwAw.github.io/categories/blog-introduce/</link>
         <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
