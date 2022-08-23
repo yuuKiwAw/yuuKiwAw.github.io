@@ -3,7 +3,7 @@ title: "OpenCV环境搭建"
 description: 'opencv源码编译, 以及vscode开发环境设置, 多操作系统环境(Linux, Windows)'
 date: '2022-07-26'
 slug: 'opencv-env'
-# image: 'tree.webp'
+image: 'opencvcpp.png'
 categories:
     - opencv
 tags:
@@ -12,24 +12,31 @@ tags:
 ---
 
 ## Linux Env
+
 Debian 11 amd64  
 CMake > 3.0.0  
 GCC/G++ 13.0.0  
 vscode
 
 ### OpenCV编译
+
 #### 1. 安装依赖
-```
+
+```bash
 sudo apt-get install gcc g++ cmake
 sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg-dev libswscale-dev libtiff5-dev libgtk2.0-dev
 ```
+
 #### 2. 下载OpenCV源码
+
 ```bash
 wget https://github.com/opencv/opencv/archive/4.5.5.zip
 unzip 4.5.5.zip
 cd opencv-4.5.5 && mkdir build && cd build
 ```
+
 #### 3. 编译OpenCV
+
 ```bash
 sudo cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
 sudo make -j8
@@ -39,13 +46,16 @@ sudo make install
 ### vscode开发环境配置
 
 #### 1. 插件安装
+
 - C/C++ Extension Pack
 
 #### 2. 创建CMake工程
+
 - 快捷键 Ctrl+Shift+P
 - 选择CMake: Quick Start
 
 #### 3. 修改工程目录
+
 ```bash
 Project Folder
 ├─build
@@ -56,6 +66,7 @@ Project Folder
 ```
 
 #### 4. CMakeLists.txt
+
 ```bash
 cmake_minimum_required(VERSION 3.0.0)
 project(projectName VERSION 0.1.0)
@@ -73,9 +84,8 @@ target_link_libraries(main ${OpenCV_LIBS})
 
 ```
 
-
-
 ## Windows Env
+
 Windows 10 amd64  
 vcpkg  
 msvc 2022  
@@ -84,32 +94,40 @@ vscode
 ### vcpkg包管理器
 
 #### 1. 安装配置vcpkg
+
 ```bash
+
 git clone git@github.com:microsoft/vcpkg.git
 cd vcpkg
 bootstrap-vcpkg.bat
 ```
 
 #### 2. 安装CMake以及VisualStudio 2022 msvc
+
 需要使用VisualStudio 2022安装器，安装msvc C++开发环境。
+
 - [CMake](https://cmake.org/download/)
 - [VisualStudio 2022](https://visualstudio.microsoft.com/zh-hans/)
 
 #### 3. vcpkg安装opencv
+
 ```bash
 vcpkg install opencv4:x64-windows
 ```
 
-### vscode开发环境配置
+### vscode开发环境配置-win
 
-#### 1. 插件安装
+#### 1. 插件安装-win
+
 - C/C++ Extension Pack
 
-#### 2. 创建CMake工程
+#### 2. 创建CMake工程-win
+
 - 快捷键 Ctrl+Shift+P
 - 选择CMake: Quick Start
 
-#### 3. 修改工程目录
+#### 3. 修改工程目录-win
+
 ```bash
 Project Folder
 ├─.vscode
@@ -122,8 +140,10 @@ Project Folder
 ```
 
 #### 4. c_cpp_properties.json
+
 - compilerPath选择编译器的安装路径
 - includePath添加vcpkg的include文件夹位置
+
 ```json
 {
     "configurations": [
@@ -168,6 +188,7 @@ Project Folder
 ```
 
 #### 5. CMakeLists.txt
+
 ```bash
 cmake_minimum_required(VERSION 3.0.0)
 project(projectName VERSION 0.1.0)
@@ -189,8 +210,8 @@ add_executable(main ${SrcFiles})
 target_link_libraries(main ${OpenCV_LIBS})
 ```
 
-
 ## 测试代码
+
 ```c++
 #include <opencv2/core/mat.hpp>
 #include <opencv2/opencv.hpp>

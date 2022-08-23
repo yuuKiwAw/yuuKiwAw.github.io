@@ -2,8 +2,8 @@
 title: "RabbitMq环境搭建"
 description: '基于Docker的RabbitMq环境搭建，以及开启mqtt消息队列'
 date: '2022-08-22'
-slug: 'opencv-env'
-# image: 'tree.webp'
+slug: 'rabbitmq-docker'
+image: 'rabbitmq-docker.png'
 categories:
     - rabbitmq
     - docker
@@ -87,33 +87,34 @@ services:
       TZ: Asia/Shanghai
 ```
 
-### 2.进入到容器内部
+### 2.docker-compose up
+
+```bash
+docker-compose -f .\docker-compose.yml up -d
+```
+
+### 3.进入到容器内部
 
 ```bash
 docker exec -it eb2a35ffe5f5 /bin/bash
 ```
 
-### 3.开启插件
+### 4.开启插件
 
 ```bash
 rabbitmq-plugins enable rabbitmq_mqtt
 rabbitmq-plugins enable rabbitmq_web_mqtt
 ```
 
-### 4.重启容器
+### 5.重启容器
 
 ```bash
 docker restart eb2a35ffe5f5
 ```
 
-### 5.进入Rabbitmq Web配置页面
+### 6.进入RabbitmqWeb配置页面
 
 [http://localhost:15672/](http://localhost:15672/)
-
-- username: guest
-- password: guest
-
----
 
 - username: admin
 - password: admin
