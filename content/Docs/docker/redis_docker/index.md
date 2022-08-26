@@ -44,7 +44,7 @@ docker run -d --restart=always -e TZ=Asia/Shanghai --name redis -p 6379:6379 -v 
 version: "3"
 
 services:
-  rabbitmq:
+  redis:
     image: redis
     container_name: redis
     restart: always
